@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+.login-shose{
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(to right,#000000a1,#000000a1),url(../img/pander-shose.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.login{
+    width:320px;
+    height:420px;
+    background: white; 
+    padding:70px 30px;  
+}
+.login{
+    position: relative;
+}
+.login img{
+    height:80px;
+    width:80px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top:-40px;
+    left:calc(50% - 40px);
+    
+
+}
+.login h1{
+    text-align: center;
+    padding: 0 0 20px;
+    margin:0;
+    font-size:22px;
+    /* position: absolute; */
+}
+.login p {
+    margin:0;
+    font-weight: 550;
+    padding:0;
+    font-size:18px;
+}
+.login input{
+    width:100%;
+    margin-bottom: 20px;
+}
+.login input[type="text"], input[type="password"]
+{
+border:none;
+border-bottom: 1px solid #3e3e3e;
+height:40px;
+background: transparent;
+outline: none;
+color:black;
+font-size:14px;
+}
+.login input[type="submit"]{
+    border:none;
+    outline: none;
+    height:40px;
+    background: #ffc219;
+    color:black;
+    font-weight: 500;
+    font-size:16px;
+    border-radius: 20px;
+    transition: .5 all;
+    cursor: pointer;
+}
+.login a{
+    text-decoration: none;
+    color:black;
+    font-size:14px;
+    line-height:18px;
+    transition: .5 all;
+}
+.login input[type="submit"]:hover{
+    background: black;
+    color:White;
+    font-weight: bold;
+}
+.login a:hover{
+    color:#ffc219;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.registration{
+	width:520px;
+	height: 70vh;
+	margin:auto;
+	  display:flex;
+   align-items: center;
+   background: white;
+}
+.content2-con-1{
+    width:60%;
+	height: 90%;
+	margin:auto;   
+}
+
+
+input{
+
+	padding: 10px 0;
+	 border: 1px solid white; 
+	 
+    margin-top: 8px;
+    border:none;
+    border-bottom: 1px solid #3e3e3e;
+    outline: none;
+
+}
+#first-name,#last-name{
+padding: 7px 20px;
+margin-right: 10px;
+}
+
+.full{
+	width:100%;
+}
+select{
+	padding: 5px 10px;
+	margin-right: 7px;
+}
+form .radio1{
+	padding: 5px 15px;
+	margin-right: 5px;
+}
+input.dangky{
+     padding:8px 20px;
+     background: #ffc219;
+     color: white;
+     margin-top: 30px;
+     cursor: pointer;
+     border:none;
+     border-radius: 10px;
+}
+input.dangnhap1{
+     padding:8px 20px;
+     background: #ff9800b3;
+     color: white;
+     margin-top: 30px;
+     cursor: pointer;
+     border:none;
+     border-radius: 10px;
+}
+.content2{
+	position: relative;
+}
+#form-resi h3{
+    margin:20px 0;
+}
+.registration{
+   display:none;
+}
+.opacity{
+    display:none;    
+} 
+.show{
+    display:block;
+	visibility: visible;
+	transition: 0.5s ease;
+} 
+@media(max-width:1024px){
+    .login-shose{
+        background: black;
+    }
+}
+@media(width:1024px){
+    .login{
+        width: 431px;
+        height: 500px;
+    }
+}
+@media(width:768px){
+    .login{
+     width: 394px;
+    height: 452px;
+    }
+}
+@media(max-width:411px){
+    .registration{
+        width:377px;
+    }
+}
+@media(height:568px){
+    .login{
+     width: 286px;
+    height: 418px;
+    }
+}
+@media(width:1920px){
+    .login p{
+        font-size: 22px;
+    }
+    .login a{
+        font-size:18px;
+    }
+    .login {
+        width: 380px;
+        height: 478px;
+    }
+    .login input[type="submit"]{
+        height: 46px;
+        font-size: 20px;
+    }
+    .login h1{
+        font-size:25px;
+    }
+    .login img {
+        height: 90px;
+        width: 90px;
+    }
+}

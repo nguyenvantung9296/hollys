@@ -1,0 +1,833 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    /* font: 400 15px/1.8 "Lato", sans-serif; */
+    color: white;
+    background-color: #3e3e3e;
+    font-family: 'Arsenal', sans-serif;
+  }
+
+    .logo {
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #642580;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  /* .caption {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+  } */
+  
+  .border {
+    background-color: #3e3e3ec7;
+    color: white;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 4px;
+    font-weight: 550;
+  }
+  
+
+  
+  .parallax {
+    min-height: 80%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #642580;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  h3 {
+
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #f8df04;
+    font-weight: 550;
+    text-align:center;
+    line-height:1.3;
+  }
+  
+  h4{
+   color: #df3b56;
+   font-size:18px;
+  }
+  
+  .textSection{
+    padding:50px 60px;
+  }
+  
+  .logo{
+    background-image: url("https://www.kicksonfire.com/wp-content/uploads/2017/02/Nike-Air-Max-6.jpg?x71943");
+  }
+  
+  #informationPar{
+    background-image: url("https://hypemagazine.co.za/wp-content/uploads/2017/12/AMD_LDZERO_native_1600.jpg");
+  }
+  
+  #introductionPar{
+    background-image: url("https://c.static-nike.com/a/images/w_1920,c_limit,f_auto/sj6jfxoqb0g5k1ribyzd/nike-air-max-1-retro-atmos-908366-001.jpg");
+  }
+  
+  #ingredientsPar{
+    background-image: url("https://static.highsnobiety.com/thumbor/lkEn9weffjkv8d8gGK6f7q4yBSg=/fit-in/1200x675/smart/static.highsnobiety.com/wp-content/uploads/2017/03/02112826/nike-air-max-1-history-02.jpg");
+  }
+  
+  #prepPar{
+    background-image: url("https://c.static-nike.com/a/images/w_1920,c_limit,f_auto/dtxitorecbkbzdw9xwng/nike-air-max-day-2017-collection.jpg");
+  }
+  
+  #bakingPar{
+    background-image: url("https://www.kicksonfire.com/wp-content/uploads/2019/10/unnamed-3.jpg");
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .navar-big{
+    width:100%;
+    height:auto;
+    background: #3e3e3e;
+}
+.navar-menu{
+    width:80%;
+    margin:auto;
+    background: #3e3e3e;
+    height:80px;
+}
+.logo-navar img{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+}
+.icon-shop img{
+    width:40px;
+    height:40px;
+    margin-left:20px;
+    color: #f8df04;
+    cursor: pointer;
+
+}
+.text-navar{
+    color: white;
+    
+}
+.bg-light {
+    background-color: #3e3e3e!important;
+}
+.menu-small,.dropdown-menu {
+    background: #3e3e3e;
+}
+.account{
+    border:none;
+    color:white;
+    transition: .5 all;
+}
+.account:hover{
+    background-color: #f8df04;
+}
+@media(max-width:600px){
+
+.navar-menu{
+    padding:30px;
+    width:100%;
+    
+}
+.logo-navar{
+    position: absolute;
+    right: 1%;
+}
+
+.logo-navar img{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+}
+.bg-light{
+    position: relative;
+    width:100%;
+}
+.nav-item.active.custom-home{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+a.nav-link.text-navar{
+    color:white;
+    text-transform: uppercase;
+    font-size:20px;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.1);
+    background: #f8df04;
+    position: absolute;
+}
+#navbarSupportedContent{
+    background: rgb(62, 62, 62);
+    z-index: 1500;
+    position: absolute;
+    /* top: 18px;
+    left: -8px; */
+    top:0;
+    left:0;
+    padding: 76px 64px 43px 95px;
+
+}
+.custom-home{
+    /* display:none; */
+    z-index: 2000;
+}
+li.nav-item.active.custom-home{
+    display:none;
+}
+.dropdown-menu{
+    border: 1px solid white;
+    border-radius: .25rem;
+    box-shadow: 2px 2px 4px 2px white;
+}
+button.navbar-toggler{
+    z-index: 2000;
+}
+a.navbar-brand.logo-navar{
+    z-index: 2000;
+}
+input.form-control.mr-sm-2{
+    width:100%;
+}
+div#exampleModalScrollable {
+    z-index: 1400;
+}
+}
+@media(max-width:350px){
+    .navbar-toggler{
+        padding: 4px 4px;
+    }
+    .nav-item.active.custom-home{
+        
+        padding: 20px 11px 20px 11px;
+    }
+    a.navbar-brand.logo-navar img{
+        width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    }
+    a.navbar-brand.logo-navar{
+        padding: 20px 15px 20px 15px;
+       
+        margin-right:0;
+    }
+    .content-pagination{
+        height: 161px;
+    }
+    .content-pagination .content button{
+        margin-left:10px;
+    }
+    .content-pagination h3{
+        width: 325px;
+    font-size: 18px;
+    }
+}
+
+.height-menu{
+    height: 547px;
+}
+a.dropdown-item.text-navar{
+	color:white;
+}
+a.dropdown-item.text-navar:hover{
+	background: #f8df04;
+}
+.navbar-brand{
+    height:auto;
+}
+a.nav-link.text-navar{
+    font-size:16px;
+}
+.navbar-nav a{
+    font-size:16px;
+}
+input.form-control.mr-sm-2{
+    padding: 18px 15px;
+    font-size: 16px;
+}
+button.btn.btn-outline-success.my-2.my-sm-0.account{
+    font-size: 16px;
+    color: white;
+}
+
+.navar-big{
+    position: fixed;
+    z-index: 4000;
+}
+@media(width:1024px){
+    .navar-menu{
+        width:95%;
+    }
+}
+
+@media(max-width:600px){
+    .logo{
+    
+        background-size: cover;
+        min-height: 100%;
+        
+      }
+      .logo-navar img {
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+    }
+    .dropdown-menu{
+        border:none;
+        box-shadow: none;
+    }
+    .navbar-toggler-icon{
+        width:1.3rem;
+        height:1.5rem;
+    }
+    a.nav-link.text-navar{
+        text-transform: initial;
+    }
+    ul.navbar-nav.mr-auto{
+        margin-top:20px;
+    }
+    input.form-control.mr-sm-2{
+        margin-bottom: 15px;
+    }
+      .border{
+          font-size:20px;
+      }
+      
+      #informationPar{
+       
+      }
+      
+      #introductionPar{
+       
+      }
+      
+      #ingredientsPar{
+       
+      }
+      
+      #prepPar{
+       
+      }
+      
+      #bakingPar{
+      }
+        
+}
+
+@media(width:411px){
+    .caption {
+        width: 76%;
+    }
+}
+@media(height:736px){
+    .caption {
+        width: 76%;
+    }
+}
+@media(width:320px){
+    .border {
+        font-size: 16px;
+    }
+    .navbar-toggler-icon {
+        width: 1.7rem;
+        height: 1.5rem;
+    }
+}
+
+
+@media (max-width: 1000px) and (min-width: 769px)
+{
+#navbarSupportedContent {
+    background: #3e3e3e;
+    position: absolute;
+    height: 100vh;
+    z-index: 3000;
+    overflow: hidden;
+    height: 80vh;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+ul.navbar-nav.mr-auto {
+    margin-top: 115px;
+    margin-left: 75px;
+}
+a.nav-link.text-navar, a#navbarDropdown {
+    width: 100px;
+    font-size: 18px;
+}
+a.navbar-brand.logo-navar, button.navbar-toggler, a.nav-link.text-navar, .nav-item.active.custom-home.icon-holly {
+    z-index: 3500;
+}
+form.form-inline.my-2.my-lg-0.icon-shop {
+    margin-left: 70px;
+}
+button.btn.btn-outline-success.my-2.my-sm-0.account:hover{
+    color:#ffc219;
+}
+a.nav-link.disabled.nav-link-produce,a.nav-link.text-navar,a.nav-link.text-navar,a.nav-link.text-navar, a#navbarDropdown{
+    font-size:17px;
+}
+li.nav-item.dropdown.show{
+    width:200px;
+}
+.navbar-nav .dropdown-menu{
+    border:none;
+}
+.content-pagination h3{
+    font-size:22px;
+}
+.logo-navar img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.navbar-toggler-icon{
+    width: 1.3em;
+    height: 1.4em;
+}
+.navbar-brand{
+     padding-top: 0rem;
+     padding-bottom: 0rem;
+}
+button.navbar-toggler{
+    background: #ffc219;
+}
+.navar-menu {
+    width: 100%;
+    padding: 0px 59px;
+}
+.time-over .h3,.time-over h2{
+    font-size:1.3rem;
+}
+.information-content span{
+    font-size:17px;
+}
+#logo1,.image-logo img {
+    height: 70px;
+    width: 70px;
+}
+.nav-item.active.custom-home{
+    z-index:4000;
+}
+.row1{
+    margin-top:0;
+}
+}
+@media(max-width:1200px){
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light.navar-menu{
+        width:95%;
+    }
+}
+@media(max-width:1000px) and (min-width:416px){
+    .navar-menu {
+        width: 100%;
+        padding: 0px 59px;
+    }
+    .time-over .h3,.time-over h2{
+        font-size:1.3rem;
+    }
+    .information-content span{
+        font-size:17px;
+    }
+    #logo1,.image-logo img {
+        height: 70px;
+        width: 70px;
+    }
+    .nav-item.active.custom-home{
+        z-index:4000;
+    }
+    .row1{
+        width:90%;
+    }
+}
+@media (max-width: 767px) and (min-width: 415px)
+{
+#navbarSupportedContent {
+    background: #3e3e3e;
+    position: absolute;
+    height: 100vh;
+    z-index: 3000;
+    overflow: hidden;
+    height: 80vh;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+ul.navbar-nav.mr-auto {
+    margin-top: 115px;
+    margin-left: 75px;
+}
+a.nav-link.text-navar, a#navbarDropdown {
+    width: 100px;
+    font-size: 18px;
+}
+a.navbar-brand.logo-navar, button.navbar-toggler, a.nav-link.text-navar, .nav-item.active.custom-home.icon-holly {
+    z-index: 3500;
+}
+form.form-inline.my-2.my-lg-0.icon-shop {
+    margin-left: 70px;
+}
+button.btn.btn-outline-success.my-2.my-sm-0.account:hover{
+    color:#ffc219;
+}
+a.nav-link.disabled.nav-link-produce,a.nav-link.text-navar,a.nav-link.text-navar,a.nav-link.text-navar, a#navbarDropdown{
+    font-size:17px;
+}
+li.nav-item.dropdown.show{
+    width:200px;
+}
+.navbar-nav .dropdown-menu{
+    border:none;
+}
+.logo-navar img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.navbar-toggler-icon{
+    width: 1.3em;
+    height: 1.4em;
+}
+.navbar-brand{
+     padding-top: 0rem;
+     padding-bottom: 0rem;
+}
+button.navbar-toggler{
+    background: #ffc219;
+}
+.information-content span {
+    font-size: 15px;
+}
+.information-content i{
+    margin-right: 16px;
+    font-size: 18px;
+}
+.time-over .h3, .time-over h2 {
+    font-size: 1.1rem;
+    line-height:1.4;
+}
+.content-informtion{
+    width:95%;
+}
+.row1{
+    margin-top:0;
+}
+}
+@media(max-width:600px) and (min-width:415px){
+    ul.navbar-nav.mr-auto {
+        margin-top: 40px;
+        margin-left: -16px;
+    }  
+    form.form-inline.my-2.my-lg-0.icon-shop {
+        margin-left: -18px;
+    }
+    input.form-control.mr-sm-2{
+        width:78%;
+        margin-bottom:13px;
+    }  
+#navbarSupportedContent {
+  height:80vh;
+}
+.logo-navar img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+.navbar-toggler-icon{
+    width: 1.3em;
+    height: 1.4em;
+}
+.navbar-brand{
+     padding-top: 0rem;
+     padding-bottom: 0rem;
+}
+button.navbar-toggler{
+    background: #ffc219;
+}
+}
+@media(max-width:415px){
+    #navbarSupportedContent {
+        height:80vh;
+      
+}
+ul.navbar-nav.mr-auto {
+    margin-top: 30px;
+    margin-left: -16px;
+} 
+input.form-control.mr-sm-2{
+    width:100%;
+    margin-bottom:13px;
+}  
+form.form-inline.my-2.my-lg-0.icon-shop {
+    margin-left: -18px;
+}
+.logo-navar img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+.navbar-toggler-icon{
+    width: 1.2em;
+    height: 1.3em;
+}
+}
+
+.foodter-a li a{
+	text-decoration: none;
+	color:#212529;
+}
+.foodter-a li a:hover{
+	color:#ff9800;
+	line-height:20px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-nav .nav-link, input#myInput a{
+    color:white;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color:#ffc219;
+}
+a.nav-link.text-navar{
+    color:white;
+    text-decoration: none;
+}
+.navbar-light .navbar-nav .nav-link.disabled{
+    color:white;
+}
+a.nav-link.text-navar:hover{
+    color:#ffc219;
+}
+.navbar-light .navbar-nav .nav-link.disabled:hover{
+    color:#ffc219;
+}
+button.btn.btn-outline-success.my-2.my-sm-0.account {
+    color: white;
+    text-decoration: none;
+    background: none;
+}
+button.btn.btn-outline-success.my-2.my-sm-0.account:hover{
+    color:#ffc219;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****FOOTER******************/
+.row-foodter{
+    width:80%;
+    margin:auto;
+    margin-top:40px;
+}
+.footer-item h4 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 0.8;
+    margin-bottom: 25px;
+    margin-top: 0;
+    padding-left: 10px;
+    color: #333;
+    border-left: solid 3px #ffc219;
+}
+.footer-item ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.footer-item ul>li {
+    line-height: 32px;
+    font-size:16px;
+}
+.row-foodter i {
+    width: 25px;
+    text-align: center;
+    font-size:16px;
+}
+
+.btn-primary img{
+    height:37px;
+    width:37x;
+}
+.btn-primary{
+    background-color: #3e3e3e;
+}
+.navar-modal ul li{
+    display:inline-block;
+    padding:0 15px;
+}
+.button.btn.btn-link{
+    color:#ffc219;
+}
+
+.button button{
+    transition: 1s;
+}
+.button button:hover{
+    background: #3e3e3e;
+    color:white;
+
+}
+
+
+@media(max-width:600px) and (min-width:570px){
+    .row1{
+        display: flex;
+        justify-content: center;
+        height:750px;
+    }
+    .card{
+        margin-top: -13px;
+    }
+}
+.row1{
+    margin-top:0;
+}
+@media(max-width:500px){
+    #navbarSupportedContent {
+        height: 100vh;
+    }
+}
+@media(max-width:333px){
+    #navbarSupportedContent {
+        padding: 58px 49px 71px 75px;
+    }
+}
+@media(max-width:1000px){
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light.navar-menu{
+        width:100%;
+    }
+}
+
+@media(max-width:1000px) and (min-width:501px){
+    .navbar{
+        padding:0;
+    }
+    div#navbarSupportedContent {
+        height: 100vh;
+    }
+    .mr-auto, .mx-auto{
+        margin-top:40px;
+    }
+    .border{
+        font-size: 20px;
+    }
+  }
+  .logo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width:600px){
+    .textSection {
+        padding: 50px 20px;
+    }
+}
+@media(max-width:500px){
+    .textSection {
+        padding: 50px 20px;
+    }
+    .textSection h3{
+        font: 18px "Lato", sans-serif;
+    }
+    .textSection p{
+        font-size:15px;
+    }
+    
+}
+@media(max-width:360px){
+    .border{
+        font-size: 16px;
+    }
+    .textSection h3 {
+        font: 17px "Lato", sans-serif;
+        line-height: 1.4;
+    }
+    .textSection p{
+        font-size:14px;
+    }
+}
+@media(max-width:320px){
+    .border{
+        font-size: 13px;
+        letter-spacing: 2px;
+    }
+}
+@media(width:1920px){
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-nav .nav-link, input#myInput a{
+        font-size:22px;
+    }
+    a.nav-link.text-navar,button.btn.btn-outline-success.my-2.my-sm-0.account,a.nav-link.disabled,.menu-abum ul li{
+        font-size:22px;
+    }
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light.navar-menu{
+        height:100px;
+    }
+    .logo-navar img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .border{
+        font-size:45px;
+    }
+    .textSection h3{
+        font-size:35px;
+    }
+    .textSection p{
+        font-size:22px;
+    }
+    .textSection small{
+        font-size:20px;
+    }
+    .textSection h4{
+        font-size:25px;
+    }
+    .textSection ul li{
+        font-size:20px;
+    }
+    .textSection ol li{
+        font-size:22px;
+    }
+}

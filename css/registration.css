@@ -1,0 +1,256 @@
+input#ho{
+    width:100%;
+}
+input#ten{
+    width:100%;
+}
+.registration{
+    width: 439px;
+    height: 75vh;
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.content2-con-1 {
+    width: 75%;
+    height: 90%;
+    margin: auto;
+}
+@media(width:1024px){
+    .registration{
+        width: 679px;
+        height: 50vh;
+    }
+    .content2-con-1{
+    width: 79%;
+    height: 90%;
+    }
+    form#form-login{
+        margin-top: 50px;
+    }
+    input#sdt{
+        font-size:16px;
+    }
+    h3 {
+        margin: 32px 0 20px 0;
+    }
+    select#ngay{
+        font-size:16px;
+    }
+    label {
+        font-size: 18px;
+    }
+    h2{
+        font-size:40px;
+    }
+    input.dangky{
+        font-size:25px;
+    }
+    input#ho{
+        width:49%;
+    }
+    input#ten{
+        width:50%;
+    }
+    input{
+        font-size: 19px;
+    }
+    h3{
+        font-size:25px;
+    }
+    select{
+        font-size:18px;
+    }
+    input.dangky{
+        padding: 13px 28px;
+    }
+}
+
+@media(width:768px){
+    input#sdt{
+        font-size:16px;
+    }
+    h3 {
+        margin: 32px 0 20px 0;
+        margin-top: 50px;
+    }
+    select#ngay{
+        font-size:16px;
+    }
+    label {
+        font-size: 16px;
+    }
+    h2{
+        font-size:35px;
+    }
+    .content2-con-1{
+        width: 90%;
+        height: 90%;
+        }
+        form#form-login{
+            margin-top: 50px;
+        }
+        input.dangky{
+            font-size:20px;
+        }
+        input{
+            font-size: 17px;
+        }
+        h3{
+            font-size:25px;
+        }
+        input#ho{
+            width:49%;
+        }
+        input#ten{
+            width:50%;
+        }
+        input.dangky{
+            padding: 11px 25px;
+        }
+        .registration{
+            height:65vh;
+        }
+        select{
+            font-size:17px;
+        }
+        label{
+            font-size:17px;
+        }
+}
+@media(width:411px){
+    .registration{
+    width: 389px;
+    height: 83vh;
+    }
+    .content2-con-1{
+        width: 77%;
+    }
+    input#ten{
+        width:100%;
+    }
+    input#ho{
+        width:100%;
+    }
+    h2{
+        margin-bottom: 20px;
+    }
+    h3 {
+        margin: 40px 0 10px 0;
+    }
+}
+@media(height:736px){
+    .registration{
+    width: 389px;
+    height: 83vh;
+    }
+    .content2-con-1{
+        width: 80%;
+    }
+    input#ten{
+        width:100%;
+    }
+    input#ho{
+        width:100%;
+    }
+    h2{
+        margin-bottom: 20px;
+    }
+    h3 {
+        margin: 40px 0 10px 0;
+    }
+}
+@media(width:375px){
+    .registration{
+     width: 360px;
+    height: 84vh;
+    }
+    .content2-con-1{
+        width: 84%;
+    }
+    input#ten{
+        width:100%;
+    }
+    input#ho{
+        width:100%;
+    }
+    h2{
+        margin-bottom: 20px;
+    }
+    h3 {
+        margin: 40px 0 10px 0;
+    }
+}
+@media(height:812px){
+    .registration{
+        width: 360px;
+       height: 73vh;
+       }
+}
+@media(width:320px){
+    .registration{
+     width: 300px;
+    height: 95vh;
+    }
+    .content2-con-1{
+        width: 77%;
+    }
+    input#ten{
+        width:100%;
+    }
+    input#ho{
+        width:100%;
+    }
+    h2{
+        margin-bottom: 20px;
+    }
+    h3 {
+        margin: 40px 0 10px 0;
+    }
+    .content2-con-1 {
+        width: 90%;
+    }
+    input.dangky{
+        margin-top: 15px;
+    }
+    h3 {
+        margin: 29px 0 10px 0;
+    }
+}
+@media(height:823px){
+    .content2-con-1 {
+        width: 85%;
+    }
+    h2{
+        font-size: 30px;
+    }
+    input.dangky{
+        font-size:15px;
+    }
+    .registration {
+        width: 389px;
+        height: 74vh;
+    }
+}
+@media(width:360px){
+    .content2-con-1 {
+        width: 85%;
+    }
+    h2{
+        font-size: 30px;
+    }
+    input.dangky{
+        font-size:15px;
+    }
+    .registration {
+        width: 340px;
+        height: 90vh;
+    }
+    h2{
+        margin-bottom: 26px;
+    }
+    input#ho,input#ten{
+        width:100%;
+    }
+}

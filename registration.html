@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/logo.png">
+    <title>Đăng Ký Tài Khoản</title>
+    <link href="https://fonts.googleapis.com/css?family=Arsenal&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/registration.css">
+    <style>
+        #registration{
+            display:block;
+        }
+        .content2-con-1{
+            padding: 40px 0 20px 0;
+        }
+        input{
+            border-radius: 0;
+        }
+        h3{
+            margin:20px 0 10px 0;
+        }
+        h2,h4{
+            text-align: center;
+        }
+        h4{
+            font-size:15px;
+            display:none;
+        }
+    </style>
+</head>
+<body>
+<div class="login-shose">
+    <div class="registration" id="registration">
+        <div class="content2-con-1">
+            <h2>Tạo Tài Khoản Mới</h2>
+            <h4>Nhanh chóng,dễ dàng</h4>
+            <form action="Trangchushose2.html" id="form-login" method="get">
+                <span class="error"></span>
+                <input type="text" name="ho" placeholder=" Họ *" id="ho">
+
+                <!--required="required" sẽ thông báo nếu bạn không nhập thông tin tài khoản-->
+                <input type="text" name="ten" placeholder=" Tên *" id="ten">
+                <span class="error"></span><br>
+                <input type="text" name="sdt" placeholder=" Số Điện Thoại *" class="full" id="sdt">
+                <span class="error"></span><br>
+                <input type="text" name="diachi" placeholder=" Đia Chỉ *" class="full" id="diachi">
+                <span class="error"></span><br>
+                <input type="email" name="email" placeholder="Email" class="full" id="email">
+                <!---có thể thay text trong value là email nhưng nó k hộ trợ seferi của iphone-->
+                <span class="error"></span><br>
+                <input type="text" name="password" placeholder=" Mật Khẩu *" class="full" id="password">
+                <span class="error"></span><br>
+                <h3>Ngày Sinh</h3>
+                <select name="ngay" id="ngay">
+                    <option value="9">9</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+
+                <select name="thang" id="thang">
+                    <option value="tháng 2">2</option>
+                    <option value="tháng 1">1</option>
+                    <option value="tháng 2">2</option>
+                    <option value="tháng 3">3</option>
+                    <option value="tháng 4">4</option>
+                    <option value="tháng 5">5</option>
+                    <option value="tháng 6">6</option>
+                    <option value="tháng 7">7</option>
+                    <option value="tháng 8">8</option>
+                    <option value="tháng 9">9</option>
+                    <option value="tháng 10">10</option>
+                    <option value="tháng 11">11</option>
+                    <option value="tháng 12">12</option>
+                </select>
+
+                <select name="nam" id="nam">
+                    <option value="Năm 1996">1996</option>
+                    <option value="Năm 2001">2001</option>
+                    <option value="Năm 2000">2000</option>
+                    <option value="Năm 1999">1999</option>
+                    <option value="Năm 1998">1998</option>
+                    <option value="Năm 1997">1997</option>
+                    <option value="Năm 1996">1996</option>
+                    <option value="Năm 1995">1995</option>
+                    <option value="Năm 1994">1994</option>
+                    <option value="Năm 1993">1993</option>
+                    <option value="Năm 1992">1992</option>
+                    <option value="Năm 1991">1991</option>
+                    <option value="Năm 1990">1990</option>
+                </select><br>
+                <input type="radio" name='gender' class="radio1" id="nam" /> <label for="nam">Nam</label>
+                <input type="radio" name='gender' class="radio1" id="nu" /> <label for="nu">Nữ</label>
+                <input type="radio" name='gender' class="radio1" id="khac" /> <label for="khac">Khác</label> <br>
+                <input type="submit" value="Đăng Ký" class="dangky">
+
+
+
+            </form>
+        </div>
+    </div>
+</div>
+ 
+
+  <script type="text/javascript" src="js/jquery3.1.js"></script>
+ <script src="js/login.js"></script>
+</body>
+</html>

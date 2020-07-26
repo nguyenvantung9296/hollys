@@ -1,0 +1,25 @@
+.container{
+  max-width:1920px;
+}
+
+.outer-container .row{
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cart-component{
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .outer-detail{
+      background: #3e3e3e;
+  }
+  .product-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.outer-detail{
+  border-radius: 0 0 25px 25px;
+}
