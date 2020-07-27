@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,600" rel="stylesheet">
+    <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="css/abumholly.css">
     <style>
         .hienra {
@@ -66,14 +68,118 @@
                 </ul>
                 <form class="form-inline my-2 my-lg-0 icon-shop">
                     <input class="form-control mr-sm-2" type="search" placeholder="Tìm Kiếm ..." aria-label="search">
-                    <button class="btn btn-outline-success my-2 my-sm-0 account" type="submit">Tài Khoản</button>
+                    <button type="button" class="btn  btn-outline-success my-2 my-sm-0 account" data-toggle="modal" data-target="#exampleModal">
+						Tài Khoản
+					</button>
                     <a href=""><img src="img/giohang.png" alt="gio hang"></a>
                     <i></i>
                 </form>
             </div>
         </nav>
     </div>
-
+		<!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                <div class="modal-body">
+                    <div class="container container--login">
+                        <section id="formHolder">
+ 
+                            <div class="row">
+                      
+                               <!-- Brand Box -->
+                               <div class="col-sm-6 brand">
+                                  <a href="#" class="logo">Holly's</a>
+                      
+                                  <div class="heading">
+                                     <h2>LOGIN</h2>
+                                     <p>Wecome Holly's</p>
+                                  </div>
+                      
+                                  <div class="success-msg">
+                                     <p>Great! You are one of our members now</p>
+                                     <a href="#" class="profile">Your Profile</a>
+                                  </div>
+                               </div>
+                      
+                      
+                               <!-- Form Box -->
+                               <div class="col-sm-6 form">
+                      
+                                  <!-- Login Form -->
+                                  <div class="login form-peice switched">
+                                     <form class="login-form" action="#" method="post">
+                                        <div class="form-group">
+                                           <label for="loginemail">Địa chỉ Email</label>
+                                           <input type="email" name="loginemail" id="loginemail" required>
+                                        </div>
+                      
+                                        <div class="form-group">
+                                           <label for="loginPassword">Mật Khẩu</label>
+                                           <input type="password" name="loginPassword" id="loginPassword" required>
+                                        </div>
+                      
+                                        <div class="CTA">
+                                           <input type="submit" value="Login">
+                                           <a href="#" class="switch">Đăng Ký</a>
+                                        </div>
+                                     </form>
+                                  </div><!-- End Login Form -->
+                      
+                      
+                                  <!-- Signup Form -->
+                                  <div class="signup form-peice">
+                                     <form class="signup-form" action="#" method="post">
+                      
+                                        <div class="form-group">
+                                           <label for="name">Họ và Tên</label>
+                                           <input type="text" name="username" id="name" class="name">
+                                           <span class="error"></span>
+                                        </div>
+                      
+                                        <div class="form-group">
+                                           <label for="email">Địa chỉ Email</label>
+                                           <input type="email" name="emailAdress" id="email" class="email">
+                                           <span class="error"></span>
+                                        </div>
+                      
+                                        <div class="form-group">
+                                           <label for="phone">Số điện thoại - <small>chữ số</small></label>
+                                           <input type="text" name="phone" id="phone">
+                                        </div>
+                      
+                                        <div class="form-group">
+                                           <label for="password">Mật khẩu</label>
+                                           <input type="password" name="password" id="password" class="pass">
+                                           <span class="error"></span>
+                                        </div>
+                      
+                                        <div class="form-group">
+                                           <label for="passwordCon">Nhập lại mật khẩu</label>
+                                           <input type="password" name="passwordCon" id="passwordCon" class="passConfirm">
+                                           <span class="error"></span>
+                                        </div>
+                      
+                                        <div class="CTA">
+                                           <input type="submit" value="Đăng Nhập" id="submit">
+                                           <a href="#" class="switch">Tôi đã có tài khoản !</a>
+                                        </div>
+                                     </form>
+                                  </div><!-- End Signup Form -->
+                               </div>
+                            </div>
+                      
+                         </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end-modal -->
     <div class="container">
         <div class="row row-abum">
             <div class="menu-abum">
@@ -933,6 +1039,7 @@
     <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
     <!-- or -->
     <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
+    <script src="js/login.js"></script>
     <script src="js/abumholly.js">
 
 

@@ -7,24 +7,110 @@
     <link rel="icon" type="image/png" sizes="32x32" href="img/logo.png">
     <title>Đăng Nhập</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,600" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
-<div class="login-shose">
-    <div class="login login-shose1" id="login-shose1">
-        <h1>Đăng Nhập</h1>
-        <img src="img/logo-login.png" alt="">
-        <form action="Trangchushose2.html" id="form-resi">
-            <p>Tên Đăng Nhập</p>
-            <input type="text" name="login" placeholder="Điền tên đăng nhập" id="login-input">
-            <p>Mật Khẩu</p>
-            <input type="password" name="password" placeholder="Điền mật khẩu" id="password-input">
-            <input type="submit" name="" value="Đăng Nhập">
-            <a href="">Bạn quên mật khẩu ?</a><br>
-            <a class="click-login" id="demo" onclick="myFunction()" href="registration.html">Bạn chưa có tài khoản ?</a>
-        </form>
-    </div>
-</div>
+
+    <div class="container">
+        <section id="formHolder">
+     
+           <div class="row">
+     
+              <!-- Brand Box -->
+              <div class="col-sm-6 brand">
+                 <a href="#" class="logo">Holly's <span>.</span></a>
+     
+                 <div class="heading">
+                    <h2>LOGIN</h2>
+                    <p>Wecome Holly's</p>
+                 </div>
+     
+                 <div class="success-msg">
+                    <p>Great! You are one of our members now</p>
+                    <a href="#" class="profile">Your Profile</a>
+                 </div>
+              </div>
+     
+     
+              <!-- Form Box -->
+              <div class="col-sm-6 form">
+     
+                 <!-- Login Form -->
+                 <div class="login form-peice switched">
+                    <form class="login-form" action="#" method="post">
+                       <div class="form-group">
+                          <label for="loginemail">Địa chỉ Email</label>
+                          <input type="email" name="loginemail" id="loginemail" required>
+                       </div>
+     
+                       <div class="form-group">
+                          <label for="loginPassword">Mật Khẩu</label>
+                          <input type="password" name="loginPassword" id="loginPassword" required>
+                       </div>
+     
+                       <div class="CTA">
+                          <input type="submit" value="Login">
+                          <a href="#" class="switch">Đăng Ký</a>
+                       </div>
+                    </form>
+                 </div><!-- End Login Form -->
+     
+     
+                 <!-- Signup Form -->
+                 <div class="signup form-peice">
+                    <form class="signup-form" action="#" method="post">
+     
+                       <div class="form-group">
+                          <label for="name">Họ và Tên</label>
+                          <input type="text" name="username" id="name" class="name">
+                          <span class="error"></span>
+                       </div>
+     
+                       <div class="form-group">
+                          <label for="email">Địa chỉ Email</label>
+                          <input type="email" name="emailAdress" id="email" class="email">
+                          <span class="error"></span>
+                       </div>
+     
+                       <div class="form-group">
+                          <label for="phone">Số điện thoại - <small>chữ số</small></label>
+                          <input type="text" name="phone" id="phone">
+                       </div>
+     
+                       <div class="form-group">
+                          <label for="password">Mật khẩu</label>
+                          <input type="password" name="password" id="password" class="pass">
+                          <span class="error"></span>
+                       </div>
+     
+                       <div class="form-group">
+                          <label for="passwordCon">Nhập lại mật khẩu</label>
+                          <input type="password" name="passwordCon" id="passwordCon" class="passConfirm">
+                          <span class="error"></span>
+                       </div>
+     
+                       <div class="CTA">
+                          <input type="submit" value="Signup Now" id="submit">
+                          <a href="#" class="switch">Tôi đã có tài khoản !</a>
+                       </div>
+                    </form>
+                 </div><!-- End Signup Form -->
+              </div>
+           </div>
+     
+        </section>
+     
+     
+        <footer>
+           <p>
+              Form made by: <a href="#" target="_blank">Tungnguyenvan9296@gmail.com</a>
+           </p>
+        </footer>
+     
+     </div>
  
 
   <script type="text/javascript" src="js/jquery3.1.js"></script>
