@@ -15,11 +15,6 @@ a {
 input {
   outline: none !important; }
 
-h1 {
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 40px;
-  font-weight: 700; }
 
 section#formHolder {
   padding: 50px 0; }
